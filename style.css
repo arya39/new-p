@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+    
+
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(155, 192, 239) 100%);
+}
+
+
+
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+
+header {
+    /* border: 2px solid black; */
+    height: 4rem;
+}
+
+.div3,
+nav {
+    background-color: rgb(155, 192, 239);
+}
+
+nav {
+    /* padding: 20px 0;
+    border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 1.6rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+nav ul li a:hover{
+    color: white;
+    transition: 0.5s ;
+}
+
+nav .div-1 {
+    font-size: 2rem;
+    color: rgb(45, 45, 45);
+}
+
+
+
+
+
+
+/* this is main section */
+/* this is main section */
+/* this is main section */
+/* this is main section */
+
+main {
+    height: 91.39vh;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-div {
+    width: 5em;
+    height: 90vh;
+    text-align: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(155, 192, 239) 100%);
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.436);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    align-items: center;
+    display: flex;
+
+}
+
+.l-div-icons{
+    text-align: center;
+    width: 100%;
+}
+.l-div-icons ul li{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.l-div-icons ul li a{
+    color: white;
+}
+
+.l-div-icons ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s ;
+}
+
+.right-div {
+    width: 9em;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.right-div-left {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.r-div-l-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    padding: 0 2em;
+    color: white;
+    /* font-display: ; */
+}
+.right-div-right img{
+    width: 30vw;
+}
+
+.right-div-right {
+
+    align-items: center;
+    text-align: center;
+
+}
+
+
+/* this isthe button part of main section */
+/* this isthe button part of main section */
+/* this isthe button part of main section */
+
+.r-div-l-btn{
+    /* border: 2px solid red; */
+    padding: 30px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+.r-div-l-btn button{
+    padding: 15px 25px;
+    border-radius: 3em;
+    text-decoration: none;
+    border: 2px solid transparent;
+   background-color: rgb(89, 152, 255);
+}
+.r-div-l-btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.r-div-l-btn button:hover{
+    background-color: black;
+    transition: 0.5s ;
+}
+
+
+
+
+@media only screen and (max-width: 721px) {
+    /* Add your CSS styles here */
+    body {
+      font-size: 14px;
+    }
+
+    /* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+/* this is my header section hich contain navbar and logos */
+header{
+    width: 100vw;
+}
+.div3,
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0;
+   
+}
+
+nav {
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+}
+
+nav .div-1 {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+/* this is main section */
+/* this is main section */
+/* this is main section */
+/* this is main section */
+
+
+.sec-1 {
+    flex-wrap: wrap-reverse;
+}
+
+.left-div {
+    height: 5em;
+    width: 90vh;
+}
+
+.l-div-icons{
+    text-align: center;
+    width: 100%;
+}
+
+.l-div-icons ul{
+    display: flex;
+    justify-content: center;
+}
+.l-div-icons ul li a{
+    color: white;
+}
+.l-div-icons ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+.right-div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.right-div-left {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.r-div-l-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    /* padding: 0 2em; */
+    color: white;
+    /* font-display: ; */
+    
+}
+.right-div-right img{
+    width: 60vw;
+}
+
+.right-div-right {
+
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+    
+  
+  }
